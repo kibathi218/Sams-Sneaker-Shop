@@ -22,3 +22,6 @@
 * Add Login functionality
 * Allow users to filter shoes
 
+## Tools Used
+[Trello Board](https://trello.com/b/N4HJzcGB/sams-sneaker-shop)
+
