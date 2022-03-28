@@ -18,3 +18,7 @@
 *  HTML
 *  CSS
 
+## Future Updates
+* Add Login functionality
+* Allow users to filter shoes
+
