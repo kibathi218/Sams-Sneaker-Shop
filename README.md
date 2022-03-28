@@ -2,7 +2,7 @@
 ## By Sam Kibathi
 ## Date: 3/28/22
 
-#### Welcome to my sneaker shop, where you can browse through our availible shoes. If you see something you like, click on the pair for more details and then add them to your cart. With th ehelp of React, user can see their total change in real time at the top of the page. If you see a pair that you like, but aren't looking to buy right now, try giving the shoes a like and coming back to it later.
+#### Welcome to my sneaker shop, where you can browse through our availible shoes. If you see something you like, click on the pair for more details and then add them to your cart. With the help of React, user can see their total change in real time at the top of the page. If you see a pair that you like, but aren't looking to buy right now, try giving the shoes a like and coming back to it later.
 
 #### insert image here
 
