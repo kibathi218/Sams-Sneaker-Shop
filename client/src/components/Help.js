@@ -1,9 +1,12 @@
 import React from 'react'
+import Footer from './Footer'
 
 const Help = () => {
   return (
-    <div>
-        
+    <div className='help'>
+        <h1>UNDER CONSTRUCTION</h1>
+
+        <Footer />
     </div>
   )
 }
