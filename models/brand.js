@@ -1,2 +1,2 @@
-const { Schema } = require('mongoose')
+const { Schem } = require('mongoose')
 
