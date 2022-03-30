@@ -1,0 +1,28 @@
+{
+  "name": "Sams-Sneaker-Shop",
+  "version": "1.0.0",
+  "description": "#### Welcome to my sneaker shop, where you can browse through our availible shoes. If you see something you like, click on the pair for more details and then add them to your cart. With the help of React, user can see their total change in real time at the top of the page. If you see a pair that you like, but aren't looking to buy right now, try giving the shoes a like and coming back to it later.",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "heroku": "^7.60.0",
+    "mongoose": "^6.2.9",
+    "react-router-dom": "^6.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kibathi218/Sams-Sneaker-Shop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kibathi218/Sams-Sneaker-Shop/issues"
+  },
+  "homepage": "https://github.com/kibathi218/Sams-Sneaker-Shop#readme"
+}

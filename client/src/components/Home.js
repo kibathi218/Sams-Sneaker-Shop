@@ -4,6 +4,8 @@ import Footer from './Footer'
 const Home = () => {
   return (
     <div>
+
+      
         <div className='hero'>
             <div>
             <h1>Featured Shoe of The Month</h1>

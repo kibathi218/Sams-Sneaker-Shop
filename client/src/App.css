@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  
 }
 
 /* ///////////////HOME PAGE/////////////////// */
@@ -62,6 +63,9 @@ button {
   position: fixed;
   width: 100%;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  
 }
 
 .navbar a {
@@ -69,8 +73,17 @@ button {
   color: white;
   padding: 30px;
   font-weight: bold;
-
 }
+
+.cart-icon {
+  position:sticky;
+  top: 0;
+  right: auto;
+  
+}
+
+
+
 
 /* ////////////////NEWSLETTER//////////////////// */
 
@@ -155,6 +168,7 @@ button {
 .shoe-box img {
   width: 250px;
   height: 250px;
+  cursor: pointer;
 }
 
 
@@ -172,6 +186,10 @@ button {
 }
 
 
+/* ////////////////////CART///////////////////// */
 
+.cart-page {
+  padding-top: 100px;
+}
 
 

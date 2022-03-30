@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Shop from './components/Shop';
 import Help from './components/Help';
+import Cart from './components/Cart';
 import fillerData from './data/filler-data';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="/" element={ <Home /> } />
           <Route path="shop" element={ <Shop shoes={ shoes } /> } />
           <Route path="help" element={ <Help /> } />
+          <Route path="cart" element={ <Cart /> } />
       </Routes>
       </main>
       
