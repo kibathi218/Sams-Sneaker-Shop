@@ -9,11 +9,7 @@ const main = async () => {
     // const jordan = await Brand.find({name: 'Jordan'})
     // const adidas = await Brand.find({name: 'Adidas'})
     // const asics = await Brand.find({name: 'Asics'})
-    
-    
-
-
-
+      
     const shoes = [
         { 
             name: 'Jordan Retro 4 Taupe Haze', 
