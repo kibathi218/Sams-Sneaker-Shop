@@ -30,7 +30,7 @@ const main = async () => {
     
     ]
 
-    await db.collection.Brand.insertMany(brands)
+    await db.collection("Brand").insertMany(brands)
     console.log("Created Brands");
 
     

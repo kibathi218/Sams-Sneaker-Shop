@@ -9,7 +9,7 @@ var uri = 'mongodb+srv://skibathi:Brookside218$@cluster0.vf7ck.mongodb.net/SamsS
 mongoose
     .connect(uri)
     .then(() => {
-        console.log('successfully connected to MongoDB');
+        console.log('Successfully connected to MongoDB');
     })
     .catch((e) => {
         console.log('Connection error', e.message);
