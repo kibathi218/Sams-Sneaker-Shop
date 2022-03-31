@@ -4,7 +4,7 @@ const mongoose = require('mongoose')
 // let dbUrl = process.env.NODE_ENV === 'production' ? process.env.MONGODB_URI : 'mongodb://127.0.0.1:27017/SamsSneakerDatabase'
 
 
-var uri = 'mongodb+srv://skibathi:Brookside218$@cluster0.vf7ck.mongodb.net/SamsSneakerDatabase ?retryWrites=true&w=majority'
+var uri = 'mongodb+srv://skibathi:Brookside218$@cluster0.vf7ck.mongodb.net/SamsSneakerDatabase?retryWrites=true&w=majority'
 
 mongoose
     .connect(uri)

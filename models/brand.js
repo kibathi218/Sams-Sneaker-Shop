@@ -8,3 +8,5 @@ const Brand = new Schema (
     },
     { timestamps: true }
 )
+
+module.exports = Brand
