@@ -13,7 +13,7 @@ const cors = require('cors')
 const logger = require('morgan')
 const PORT = process.env.PORT || 3001
 const db = require('./db')
-const { Shoe } = require('./models')
+const { Shoe } = require('./model')
 
 const app = express();
 
