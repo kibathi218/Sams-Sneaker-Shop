@@ -13,7 +13,7 @@ const cors = require('cors')
 const logger = require('morgan')
 const PORT = process.env.PORT || 3001
 const db = require('./db')
-const { Shoe } = require('./models/shoe')
+const { Shoe } = require('./models')
 
 const app = express();
 
@@ -27,7 +27,7 @@ app.get('/', (req, res) => {
 
 app.get('/shoes', async (req, res) => {
     const shoes = await Shoe.find({})
-    res.send(shoes)
+    res.json(shoes)
   })
 
 app.listen(PORT, () => {
