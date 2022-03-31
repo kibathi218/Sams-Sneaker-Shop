@@ -4,15 +4,20 @@
   "description": "#### Welcome to my sneaker shop, where you can browse through our availible shoes. If you see something you like, click on the pair for more details and then add them to your cart. With the help of React, user can see their total change in real time at the top of the page. If you see a pair that you like, but aren't looking to buy right now, try giving the shoes a like and coming back to it later.",
   "main": "server.js",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.0.0",
+    "express": "^4.17.3",
     "heroku": "^7.60.0",
     "mongoose": "^6.2.9",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
     "react-router-dom": "^6.2.2"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev":"nodemon server.js"
   },
   "repository": {
     "type": "git",

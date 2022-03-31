@@ -16,7 +16,7 @@ const main = async () => {
             price: 10, 
             description: '', 
             image: 'https://cdn.flightclub.com/750/TEMPLATE/254034/1.jpg',
-            // brand_id: jordan[0]._id
+            brand: 'Jordan'
         },
 
         { 
@@ -24,7 +24,7 @@ const main = async () => {
             price: 10, 
             description: '', 
             image: 'https://cdn.flightclub.com/TEMPLATE/251353/1.jpg',
-            // brand_id: nike[0]._id
+            brand: 'Nike'
         },
 
         { 
@@ -32,7 +32,7 @@ const main = async () => {
             price: 10, 
             description: '', 
             image: 'https://cdn.flightclub.com/2200/TEMPLATE/150652/1.jpg',
-            // brand_id: nike[0]._id
+            brand: 'Nike'
         },
 
         { 
@@ -40,7 +40,7 @@ const main = async () => {
             price: 10, 
             description: '', 
             image: 'https://cdn.flightclub.com/750/TEMPLATE/137804/1.jpg',
-            // brand_id: nike[0]._id
+            brand: 'Nike'
         },
 
         { 
@@ -48,35 +48,35 @@ const main = async () => {
             price: 10, 
             description: '', 
             image: 'https://cdn.flightclub.com/750/TEMPLATE/011994/1.jpg',
-            // brand_id: jordan[0]._id
+            brand: 'Jordan'
         },
         { 
             name: 'Adidas Superstar Core Black White', 
             price: 10, 
             description: '', 
             image: 'https://cdn.flightclub.com/750/TEMPLATE/166775/1.jpg',
-            // brand_id: adidas[0]._id
+            brand: 'Adidas'
         },
         { 
             name: 'Asics Gel Lyte 3 OG ', 
             price: 10, 
             description: '', 
             image: 'https://cdn.flightclub.com/750/TEMPLATE/278375/1.jpg',
-            // brand_id: asics[0]._id
+            brand: 'Asics'
         },
         { 
             name: 'Nike Patta X Air Max 1', 
             price: 10, 
             description: '', 
             image: 'https://cdn.flightclub.com/750/TEMPLATE/283231/1.jpg',
-            // brand_id: nike[0]._id
+            brand: 'Nike'
         },
         { 
             name: 'Jordan Retro 1 Dark Mocha', 
             price: 10, 
             description: '', 
             image: 'https://cdn.flightclub.com/2200/TEMPLATE/162310/1.jpg',
-            // brand_id: jordan[0]._id
+            brand: 'Jordan'
         }
     
     

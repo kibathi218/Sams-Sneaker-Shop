@@ -6,7 +6,7 @@ const Shoe = new Schema(
         img: {type: String, required: true},
         description: {type: String, required: true},
         price: {type: Number, required: true},
-        brand_id: {type: Schema.Types.ObjectId, ref: 'brand_id'}
+        brand: {type: Schema.Types.ObjectId, ref: 'brands'}
     },
     { timestamps: true }
 )
