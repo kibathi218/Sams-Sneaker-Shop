@@ -20,8 +20,8 @@ function App() {
   useEffect(() => {
     async function getAllReviews() {
       const res = await axios.get(`${BASE_URL}/reviews`)
-      // setReviews(res.data.)
-      console.log(res)
+      setReviews(res.data.reviews)
+      // console.log(res)
     }
     getAllReviews()
   }, [])
@@ -40,7 +40,7 @@ function App() {
           <Route path="/" element={ <Home /> } />
           <Route path="shop" element={ <Shop shoes={ shoes } /> } />
           <Route path="shop/:id" element={ <ShoeDetails shoes={ shoes } /> } />
-          <Route path="reviews" element={ <Help /> } />
+          <Route path="reviews" element={ <Help reviews={ reviews } /> } />
           <Route path="cart" element={ <Cart /> } />
       </Routes>
       </main>

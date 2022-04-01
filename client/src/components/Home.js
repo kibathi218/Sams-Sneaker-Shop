@@ -2,6 +2,14 @@ import React from 'react'
 import Footer from './Footer'
 
 const Home = () => {
+
+  let homeImg = ""
+
+  const changeAngle = () => {
+
+  }
+
+
   return (
     <div>
 

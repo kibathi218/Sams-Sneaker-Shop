@@ -127,6 +127,23 @@ button {
   
 }
 
+.review-page {
+  padding-top: 30px;
+}
+
+.review-block {
+  background-color: rgb(194, 187, 187);
+  border: 2px white solid;
+  height: 180px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.review-header {
+  padding-top: 100px;
+  text-align: center;
+}
+
 /* /////////////////SHOP PAGE/////////////////////// */
 
 .shop {
