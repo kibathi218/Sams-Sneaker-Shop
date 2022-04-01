@@ -27,7 +27,7 @@ const Home = () => {
             <h1>Jordan Retro 5 Jade Horizon</h1>
             <h2>$200</h2>
         <button>Get Notified</button>
-        <button>More Retro 5s</button>
+       <button>More shoes</button> 
         </div>
 
         <div className='newsletter'>

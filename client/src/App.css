@@ -121,9 +121,10 @@ button {
 /* ///////////////FOOTER/////////////////////// */
 
 .footer {
-  height: 300px;
+  height: 200px;
   width: 100%;
   background-color: black;
+  
 }
 
 /* /////////////////SHOP PAGE/////////////////////// */
@@ -166,24 +167,53 @@ button {
 }
 
 .shoe-box img {
-  width: 250px;
-  height: 250px;
+  width: 70%;
   cursor: pointer;
 }
 
+.shoe-details img {
+  width: 35%;
+}
+
+.shoe-details {
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  padding-top: 150px;
+}
+
+.shoe-text {
+  text-align: center;
+  word-wrap:normal;
+  padding-top: 80px;
+}
+
+.shoe-text button {
+  width: 250px;
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.shoe-text button:hover {
+  background-color: rgb(6, 145, 6);
+  cursor: pointer;
+
+}
 
 
 /* //////////////HELP PAGE///////////////// */
 
 .help {
-  height: 300px;
+  height: 500px;
   width: 300px;
-  color: white;
-  background-color: coral;
-  padding: 300px;
+  padding-top: 100px;
   text-align: center;
   margin: auto;
 }
+
+
 
 
 /* ////////////////////CART///////////////////// */

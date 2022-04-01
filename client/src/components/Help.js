@@ -3,11 +3,14 @@ import Footer from './Footer'
 
 const Help = () => {
   return (
+    <div>
     <div className='help'>
-        <h1>UNDER <br /> CONSTRUCTION!</h1>
+        <h1>Reviews</h1>
 
-        <Footer />
     </div>
+
+</div>
+
   )
 }
 

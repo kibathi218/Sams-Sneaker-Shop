@@ -1,8 +1,18 @@
 import React from 'react'
 import Footer from './Footer'
+import { useNavigate } from 'react-router-dom'
+
 
 
 const Shop = (props) => {
+
+  let navigate = useNavigate()
+
+  const showShoe = (shoe) => {
+    navigate(`${shoe.id}`)
+  }
+
+
   return (
     <div className='shop'>
         <div className='coupon'>
@@ -12,10 +22,10 @@ const Shop = (props) => {
         <div className='row'>
 
         {props.shoes.map((shoe) => (
-            <div className='shoe-box'>
+            <div onClick={() => showShoe(shoe)} key={shoe.id} className='shoe-box'>
                 <img src={shoe.img} />
                 <h2>{shoe.name}</h2>
-                <h3>{shoe.price}</h3>
+                <h2>{shoe.price}</h2>
             </div>
         ))}
         </div>
