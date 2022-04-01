@@ -6,22 +6,26 @@
 
 ![Image](https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/6c909290-79a8-4c89-9de1-0c6d75d7f717/air-jordan-5-jade-dc7501-300-release-date.jpg)
 
-## How You Can Contribute
+## How You Can Contribute 🧔
 * Fork and clone
 * Run npm install to install dependencies
 * Run code . to open files in text editor
 
-## Technologies Used
+## Technologies Used ⌨️
 * Javascript
 *   React
 *   MongoDb / Mongoose
 *  HTML
 *  CSS
 
-## Future Updates
+## Known Bugs 🐛
+* Creating a review leads to error
+
+## Future Updates 💻
 * Add Login functionality
 * Allow users to filter shoes
 
-## Tools Used
+
+## Tools Used 🧰
 [Trello Board](https://trello.com/b/N4HJzcGB/sams-sneaker-shop)
 
