@@ -10,21 +10,29 @@ import fillerData from './data/filler-data';
 import axios from 'axios';
 import { BASE_URL } from './globals'
 import ShoeDetails from './components/ShoeDetails';
+import NewReview from './components/NewReview';
 
 
 function App() {
 
-  const [reviews, setReviews] = useState({})
+  const [reviews, setReviews] = useState([])
 
 
   useEffect(() => {
     async function getAllReviews() {
       const res = await axios.get(`${BASE_URL}/reviews`)
       setReviews(res.data.reviews)
-      // console.log(res)
+      console.log(reviews)
     }
     getAllReviews()
   }, [])
+
+
+  // useEffect(() => {
+  //   async function deleteReview() {
+  //     const 
+  //   }
+  // })
 
 
   const [shoes, setShoes] = useState(fillerData)
@@ -38,6 +46,7 @@ function App() {
       <main>
       <Routes>
           <Route path="/" element={ <Home /> } />
+          <Route path="/newReview" element={ <NewReview /> } />
           <Route path="shop" element={ <Shop shoes={ shoes } /> } />
           <Route path="shop/:id" element={ <ShoeDetails shoes={ shoes } /> } />
           <Route path="reviews" element={ <Help reviews={ reviews } /> } />
