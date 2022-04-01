@@ -8,40 +8,20 @@
 //     res.sendFile(`${__dirname}/client/build/index.html`)  BEFORE APP.LISTEN
 //    }) 
 
-const express = require('express')
-const cors = require('cors')
-const logger = require('morgan')
-const PORT = process.env.PORT || 3001
-const db = require('./db')
-const { Shoe } = require('./models')
+const express = require('express');
+const routes = require('./routes');
+const db = require('./db');
+const bodyParser = require('body-parser');
+
+
+const PORT = process.env.PORT || 3001;
 
 const app = express();
+app.use(bodyParser.json());
 
-app.use(cors())
-app.use(express.json())
-app.use(logger('dev'))
 
-app.get('/', (req, res) => {
-  res.send('This is root!')
-})
+app.use('/api', routes);
 
-app.get('/shoes', async (req, res) => {
-    const shoes = await Shoe.find({})
-    res.json(shoes)
-  })
+db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 
-app.get('/shoes/:id', async (req, res) =>{
-  try {
-  const { id } = req.params
-  const shoe = await Shoe.findById(id)
-  if (!shoe) throw Error ('shoe not found')
-  res.json(shoe)
-  } catch (e) {
-    console.log(e)
-    res.send("shoe not found")
-  }
-})
-
-app.listen(PORT, () => {
-  console.log(`Express server listening on port ${PORT}`)
-})
+app.listen(PORT, () => console.log(`Listening on port: ${PORT}`))
