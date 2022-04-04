@@ -1,5 +1,6 @@
 # Sam's Sneaker Shop
 ## By Sam Kibathi
+[LinkedIn](linkedin.com/in/samuel-kibathi)
 ## Date: 3/28/22
 
 #### Welcome to my sneaker shop, where you can browse through our availible shoes. If you see something you like, click on the pair for more details and then add them to your cart. You can also head over to our Reviews section to cleave a comment and rating. While there you will see a lsit of all the past reviews that have been left.
